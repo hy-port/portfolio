@@ -1,0 +1,108 @@
+/* wide pc */
+@media all and (max-width: 1600px) {
+   .title .inner h2 {font-size: 9rem;}
+
+   .about .inner .textBox .mask {width: 100%;}
+   .about .inner .textBox .mask {font-size: 5rem;}
+
+   .gallery .inner .box-wrapper .box {width: 25%; left: calc(25.9% * var(--a));}
+
+   .resolution .mask span {font-size: 5.5rem;}
+
+   .work .inner .cylinder .container .container-box span {font-size: 6rem;}
+
+   .ncs .inner .ncsList-container .ncsList .info .infoTitle .bold {display: block;}
+   .ncs .inner .ncsList-container .ncsList .info {width: 40%;}
+
+   .contact .inner .bottomNav .topBtn, .contact .inner .bottomNav .contactBtn {width: 15%;}
+   .contact .inner .bottomNav .rights {width: 25%;}
+}
+
+/* pc */
+@media all and (max-width: 1280px) {
+   .gnb ul li a {font-size: 11rem;}
+
+   .title .inner h2 {font-size: 7.5rem;}
+
+   .about .inner .textBox .mask {width: 100%;}
+   .about .inner .textBox .mask {font-size: 5rem;}
+
+   .gallery .inner .box-wrapper .box {width: 33%; left: calc(35.2% * var(--a));}
+
+   .resolution .mask span {font-size: 4.5rem;}
+
+   .work .inner .cylinder .container .container-box span {font-size: 5.5rem;}
+
+   .ncs .inner .ncsList-container .ncsList .info .infoTitle .bold {display: block;}
+   .ncs .inner .ncsList-container .ncsList .ncsName {display: none;}
+   .ncs .inner .ncsList-container .ncsList .info {width: 50%; text-align: right;}
+   .ncs .inner .ncsList-container .ncsList .ncsTitle {width: 25%;}
+   .ncs .inner .ncsList-container .ncsList {padding: 140px 10%;}
+
+   .contact .inner .textBox .contactTitle {font-size: 10rem;}
+   .contact .inner .bottomNav .topBtn, .contact .inner .bottomNav .contactBtn {width: 20%;}
+   .contact .inner .bottomNav .rights {width: 30%;}
+}
+
+/* tablet */
+@media all and (max-width: 768px) {
+   .gnb ul li a {font-size: 8rem;}
+   
+   .title {height: 100vh; padding: 0;}
+   .title .inner {display: flex; justify-content: center; align-items: center;}
+   .title .inner .mainTextEn {display: none;}
+   .title .inner h2 p:last-child {display: none;}
+
+   .about02 .inner {width: 100%; margin: 0; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+   .about02 .inner ul .date, .about02 .inner ul .siteTitle {display: none;}
+   .about02 .inner ul .motto .mask .title {font-size: 2.5rem;}
+   .about02 .inner ul .motto .mask:nth-child(2) {display: none;}
+
+   .gallery .inner .box-wrapper .box {width: 60%; left: calc(65% * var(--a))}
+
+   .resolution .mask span {font-size: 2.5rem;}
+   .resolution .moreBtn2 a {perspective: 340px;}
+
+   .work .inner .textBox {justify-content: center;}
+   .work .inner .cylinder .container .container-box span {font-size: 3rem;}
+   .work .inner .textBox .date, .work .inner .textBox .siteTitle {display: none;}
+   .work .inner .textBox .goal .mask .goalTitle {display: none;}
+   .work .inner .textBox .goal .mask {text-align: center;}
+   
+   .ncs .inner .ncsList-container .ncsList .ncsTitle {display: none;}
+   .ncs .inner .ncsList-container .ncsList .info {width: 100%; text-align: center;}
+
+   .contact .inner .textBox .contactTitle {font-size: 6rem;}
+   .contact .inner .bottomNav .topBtn, .contact .inner .bottomNav .contactBtn {width: 30%;}
+   .contact .inner .bottomNav .rights {width: 35%; text-align: center;}
+}
+
+/* mobile */
+@media all and (max-width: 480px) {
+   .gnb ul li a {font-size: 5rem;}
+   
+   .loading .loadBox {font-size: 4rem;}
+
+   header {padding: 0px 30px;}
+
+   .title .inner h2 {font-size: 5.5rem;}
+
+   .about .inner .textBox {bottom: 18%;}
+   
+   .about02 {display: none;}
+
+   .gallery {display: none;}
+
+   .resolution .mask span {font-size: 1.8rem;}
+
+   .work .inner .cylinder .container .container-box span {font-size: 2rem;}
+
+   .work .inner .textBox .goal .mask .goalText {display: none;}
+
+   .ncs .inner .ncsList-container .ncsList {padding: 140px 5%;}
+   .ncs .inner .ncsList-container .ncsList .info .hiddenText {font-size: 1.4rem;}
+
+   .contact .inner .textBox .contactTitle {font-size: 4rem;}
+   .contact .inner .bottomNav .topBtn a span, .contact .inner .bottomNav .contactBtn a span {font-size: 1.2rem;}
+   .contact .inner .bottomNav .rights {display: none;}
+}
